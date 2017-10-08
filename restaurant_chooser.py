@@ -56,5 +56,3 @@ def getRestaurant(possible_restaurants):
             print('\nYou chose ' + lunch_place)
 
 getRestaurant(possible_lunch_places)
-
-test
