@@ -35,6 +35,7 @@ possible_lunch_places = [
     'Kizuki Ramen',
     'Instant Ramen + Movie',
     'Serious Pie and Biscuit',
+    'Xi\' an Noodles'
 ]
 
 def getRestaurant(possible_restaurants):
