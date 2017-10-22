@@ -51,7 +51,9 @@ def getRestaurant(possible_restaurants):
         if user_input == 'n' or user_input == 'no':
             print('removing ' + lunch_place + ' as a choice')
             possible_restaurants.pop(random_index)
+            print
             print('remaining options: ' + str(possible_restaurants))
+            print('number of remaining options: ' + str(len(possible_lunch_places)))
         else:
             print('\nYou chose ' + lunch_place)
 
